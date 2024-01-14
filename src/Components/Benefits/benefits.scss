@@ -1,0 +1,217 @@
+.benefits {
+text-align: center;
+background-color: #f7f7f2;
+padding-bottom: 200px;
+    .desktopphoto {
+        display: block;
+        @media only screen and (max-width: 768px) {
+            display: none;
+        }
+    }
+    .mobilephoto {
+        display: none;
+        @media only screen and (max-width: 768px) {
+            display: block;
+        }
+    }
+.photos {
+    padding: 100px;
+    img {
+        border-radius: 30px;
+    }
+    .photo {
+        img {
+            width: 100%;
+        }
+    }
+    .photo-group {
+        display: flex;
+        justify-content: space-around;
+        .photo-detail {
+            img {
+                width: 100%;
+            }
+            text-align: left;
+            padding: 10px;
+        }
+    }
+}
+    .power {
+        font-size: 100px;
+        font-weight: normal;
+    }
+    .dynamic {
+        font-size: 40px;
+        font-weight: normal;
+    }
+    .conceived {
+        font-size: 40px;
+        color: gray;
+        font-weight: normal;
+    }
+    .text {
+        padding: 100px 150px;
+    }
+    p {
+        color: gray;
+        margin: 0;
+    }
+    button {
+        padding: 5px 15px;
+        border-radius: 30px;
+        font-size: 20px;
+        background: transparent;
+        border: 2px solid gray;
+        cursor: pointer;
+    }
+    h3 {
+        font-weight: normal;
+        font-size: 30px;;
+    }
+    h4 {
+        color: gray;
+        font-weight: normal;
+        font-size: 20px;
+    }
+    .list-benefits {
+        margin-top: 20px;
+        font-weight: normal;
+        border-bottom: 1px solid #e3e3e37d;
+        padding: 100px 150px;
+        .list {
+            display: flex;
+            padding: 0px 70px;
+            text-align: left;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid #e3e3e37d;
+            h1 {
+                font-weight: normal;
+                color: black;
+            }
+            h2 {
+                font-weight: normal;
+                color: gray;
+                width: 40%;
+            }
+        }
+    }
+    .girl-photo {
+        border-top: 1px solid #e3e3e37d;
+        margin-top: 100px;
+        padding: 100px 150px;
+        img {
+            margin-top: 20px;
+            border-radius: 30px;
+            width: 100%;
+        }
+        h1 {
+            font-size: 70px;
+            font-weight: normal;
+        }
+        h2 {
+            font-size: 50px;
+            font-weight: normal;
+        }
+        h3 {
+            color: gray;
+        }
+    }
+    .image-wrapper {
+        background-color: #dadee6;
+        display: flex;
+        justify-content: center;
+        img {
+            width: 50%;
+        }
+    }
+}
+ .two-cards {
+        display: flex;
+        padding: 0;
+        img {
+            width: 100%;
+        }
+        .card1 {
+            padding: 100px 30px;
+            background-color: #cbcbcb;
+        }
+        .card2 {
+            padding: 100px 30px;
+            background-color:#756f6d;
+        }
+    }
+    #color {
+        background-color: #f7f7f2;
+        img {
+        width: 100%;          
+        }
+
+    }
+    #width {
+        background-color: #f7f7f2;
+        text-align: center;
+        img {
+        width: 70%;    
+        border-radius: 30px;      
+        }
+    }
+    #travel {
+        img {
+            width: 70%;
+        }
+    }
+@media only screen and (max-width: 768px) {
+    .benefits {
+        margin-top: -77px;
+    }
+    .benefits .list-benefits {
+        padding: 50px 50px;
+    }
+    .benefits .girl-photo {
+        padding: 10%;
+    }
+    .benefits .list-benefits .list {
+        padding: 0;
+    }
+    .benefits .text {
+        padding: 0;
+    }
+    .benefits .photos {
+        padding: 0;
+    }
+    .two-cards {
+        display: block;
+        padding: 10%;
+    }
+    .two-cards .card1 {
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+    .two-cards .card2 {
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+    #travel {
+        background-image: none;
+        padding: 10%;
+    }
+    .benefits .image-wrapper {
+        background-color: transparent;
+    }
+    #travel img {
+        width: 100%;
+        border-radius: 50px;
+    }
+    #handphone {
+        background-color: #dadee6;
+        margin: 10%;
+        border-radius: 50px;
+    }
+    #color {
+        margin: 10%;
+    }
+    #color img {
+        border-radius: 50px;
+    }
+}
